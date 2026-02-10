@@ -6,7 +6,7 @@ public class Main {
 
 public class StudentInfo {
     public static void main(String[] args) {
-        String fullName = "Данилов Александр";
+        String fullName = "Соколов Станислав";
         String group = "ИС 25-21 ТиПО";
         String program = "Информационные системы";
 
