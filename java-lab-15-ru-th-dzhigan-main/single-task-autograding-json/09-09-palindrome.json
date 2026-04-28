@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "level",
+      "output": "Palindrome",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac src/Main.java",
+      "run": "java -cp src Main",
+      "input": "java",
+      "output": "Not palindrome",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
